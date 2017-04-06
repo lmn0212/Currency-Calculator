@@ -1,0 +1,9 @@
+@charset "utf-8";
+.calc_body {width:240px; font-size:12px; background: #f5f2f0; border:1px double #CCCCCC; border-radius:5px; padding:5px; font-family: 'Roboto',sans-serif; color:#161616; margin:10px auto; overflow:hidden; text-align:center;}
+.calc_body form {margin-top:10px;}
+.calc_body span {font-size:14px; font-weight:bold;}
+.calc_body label {padding-top:6px; width:100px; float:left; text-align:left;}
+.calc_body input, .calc_body select {height: 20px; padding:0 2px; width:120px; float:right; margin-bottom: 5px; text-align:left;}
+.calc_body input.calc_button {float:none; width:120px; margin:5px auto; height: 30px; padding:5px; cursor:pointer;}
+.calc_clear {clear:both;}
+#calc_error {color:red;}
